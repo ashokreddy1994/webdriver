@@ -8,7 +8,7 @@ public class EvenOdd {
         	 System.out.println("even number");
          }
          else System.out.println("odd number");
-         System.out.println(11%2);
+         System.out.println(11/2);
          
 	}
 	

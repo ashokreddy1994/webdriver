@@ -9,7 +9,7 @@ public class Vowels {
                     	if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u') {
                     		System.out.println(s.charAt(i));
                     	}
-                    	else System.out.println(s.charAt(i));
+                    	//else System.out.println(s.charAt(i));
                     }
 	}
 

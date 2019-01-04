@@ -10,7 +10,7 @@ public class Hashmap {
 	public static void main(String[] args) {
                HashMap<Integer,String> h=new HashMap<Integer,String>();
                h.put(1,"java");
-               h.put(2,".net");
+               h.put(1,".net");
                h.put(3,"selenium");
                h.put(4,"manual");
                System.out.println(h);

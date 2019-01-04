@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.webdriver.Data1">
+      <class name="listeners.TestBase">
         <methods>
-          <include name="close"/>
-          <include name="launch"/>
-          <include name="login" invocation-numbers="1 2"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- com.webdriver.Data1 -->
+      </class> <!-- listeners.TestBase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -20,6 +20,6 @@ public void selectDate(){
 	WebElement ele=driver.findElement(By.name("ctl00$mainContent$view_date1"));
 	JavascriptExecutor js=((JavascriptExecutor)driver);
 	js.executeScript("arguments[0].value='30-9-2018';", ele);
-	driver.close();
+	//driver.close();
 }
 }

@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14327" started-at="2018-09-09T14:21:33Z" finished-at="2018-09-09T14:21:47Z">
+  <suite name="Suite" duration-ms="63" started-at="2019-01-04T06:22:40Z" finished-at="2019-01-04T06:22:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14327" started-at="2018-09-09T14:21:33Z" finished-at="2018-09-09T14:21:47Z">
-      <class name="com.webdriver.DatePicker">
-        <test-method status="PASS" signature="selectDate()[pri:0, instance:com.webdriver.DatePicker@4e718207]" name="selectDate" duration-ms="14286" started-at="2018-09-09T14:21:33Z" finished-at="2018-09-09T14:21:47Z">
+    <test name="Test" duration-ms="63" started-at="2019-01-04T06:22:40Z" finished-at="2019-01-04T06:22:40Z">
+      <class name="listeners.Ex2">
+        <test-method status="PASS" signature="t1()[pri:0, instance:listeners.Ex2@4e718207]" name="t1" duration-ms="4" started-at="2019-01-04T06:22:40Z" finished-at="2019-01-04T06:22:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectDate -->
-      </class> <!-- com.webdriver.DatePicker -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- t1 -->
+        <test-method status="PASS" signature="t2()[pri:0, instance:listeners.Ex2@4e718207]" name="t2" duration-ms="0" started-at="2019-01-04T06:22:40Z" finished-at="2019-01-04T06:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t2 -->
+      </class> <!-- listeners.Ex2 -->
+      <class name="listeners.Ex1">
+        <test-method status="PASS" signature="m1()[pri:0, instance:listeners.Ex1@23fe1d71]" name="m1" duration-ms="17" started-at="2019-01-04T06:22:40Z" finished-at="2019-01-04T06:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="m2()[pri:0, instance:listeners.Ex1@23fe1d71]" name="m2" duration-ms="9" started-at="2019-01-04T06:22:40Z" finished-at="2019-01-04T06:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- listeners.Ex1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

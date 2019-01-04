@@ -1,6 +1,7 @@
 package utilities;
 
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
 public class Data {
 	@DataProvider(name="multiple")
@@ -16,6 +17,11 @@ public class Data {
 		
 		return data;
 		
+	}
+	@Test(dataProvider="multiple")
+	public void method(String x,String y) {
+		System.out.println(x);
+		System.out.println(y);
 	}
 
 }
